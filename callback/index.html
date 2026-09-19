@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Tesla OAuth callback</title></head>
+<body>
+<p>Tesla OAuth callback received. You can close this tab.</p>
+<script>
+const params = new URLSearchParams(location.search);
+document.body.insertAdjacentHTML('beforeend', '<pre>' + location.search + '</pre>');
+</script>
+</body>
+</html>
